@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,700&display=swap');
+* {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    margin: 0;
+}
+.heading{
+    color:aquamarine;
+    font-size: 150px;
+    font-family: 'Grandstander', cursive;
+}
+h2{
+    font-size: 30px;
+}
+.card {
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+    border-radius: 15px;
+    width: 25%;
+    margin: 2%;
+    background: linear-gradient(69deg, rgba(98, 198, 80, 1) 0%, rgba(91, 201, 98, 1) 4%, rgba(88, 202, 105, 1) 7%, rgba(83, 204, 115, 1) 10%, rgba(79, 206, 125, 1) 13%, rgba(76, 207, 132, 1) 15%, rgba(73, 208, 139, 1) 17%, rgba(67, 210, 153, 1) 21%, rgba(64, 211, 160, 1) 23%, rgba(63, 212, 163, 1) 24%, rgba(57, 214, 177, 1) 28%, rgba(50, 217, 194, 1) 33%, rgba(46, 219, 204, 1) 36%, rgba(40, 221, 218, 1) 40%, rgba(35, 223, 228, 1) 43%, rgba(42, 224, 220, 1) 45%, rgba(50, 225, 212, 1) 47%, rgba(61, 227, 200, 1) 50%, rgba(95, 232, 163, 1) 54%, rgba(103, 233, 154, 1) 55%, rgba(112, 235, 145, 1) 56%, rgba(137, 239, 117, 1) 59%, rgba(143, 240, 110, 1) 60%, rgba(156, 242, 96, 1) 62%, rgba(162, 243, 89, 1) 63%, rgba(175, 245, 75, 1) 65%, rgba(188, 247, 61, 1) 67%, rgba(201, 249, 47, 1) 70%, rgba(209, 250, 39, 1) 71%, rgba(224, 252, 23, 1) 73%, rgba(246, 255, 0, 1) 76%, rgba(246, 255, 0, 1) 78%, rgba(246, 255, 0, 1) 80%, rgba(246, 255, 0, 1) 83%, rgba(246, 255, 0, 1) 86%, rgba(246, 255, 0, 1) 87%, rgba(246, 255, 0, 1) 90%, rgba(246, 255, 0, 1) 90%, rgba(246, 255, 0, 1) 91%, rgba(246, 255, 0, 1) 94%, rgba(246, 255, 0, 1) 94%, rgba(246, 255, 0, 1) 94%, rgba(246, 255, 0, 1) 97%, rgba(246, 255, 0, 1) 98%);
+    
+    transition: 0.50s;  
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-desc {
+    padding: 2%;
+}
+
+.card-image {
+    background: url(http://www.hammockpizza.co/image/cache/pizza/pepperoni%20pizza-800x800.png) no-repeat center center/cover;
+    height: 300px;
+}
+
+.card-image1 {
+    background: url(http://freepngimages.com/wp-content/uploads/2016/11/bacon-burger.png) no-repeat center center/cover;
+    height: 300px;
+}
+
+.card-image2 {
+    background: url(http://pngimg.com/uploads/fries/fries_PNG75.png) no-repeat center center/cover;
+    height: 300px;
+}
+
+.card-image3 {
+    background: url(http://www.pngplay.com/wp-content/uploads/1/Pepsi-PNG-Image-Free-Download.png) no-repeat center center/cover;
+    height: 300px;
+}
+
+.card-image4 {
+    background: url(http://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Popcorn-PNG-Transparent-Image.png) no-repeat center center/cover;
+    height: 300px;
+}
+
+section {
+    height: 100vh;
+}
+
+.heading-page {
+    background-color: rgb(116, 90, 139);
+    text-align: center;
+    background: url(https://img.freepik.com/free-photo/wooden-planks-with-blurred-restaurant-background_1253-56.jpg?size=626&ext=jpg)no-repeat center center/cover;
+}
+
+.heading-page h1{
+    padding-top: 25%;
+}
+
+.additional-info {
+    visibility: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 30%;
+    transform: rotate(10deg);
+}
+
+.card:hover + .additional-info {
+    visibility: visible;
+}
+
+
+.menu-items h1, .offers-form h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Grandstander', cursive;
+}
+
+.menu-items {
+    height: 100%;
+}
+
+.offers-form {
+    margin-top: 10%;
+}
+
+form input[type='text'] {
+    padding: 15px;
+    border: 2px rgb(0, 255, 106) solid;
+
+
+}
+form input[type='submit'] {
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    cursor: no-drop;}
+form {
+    text-align: center;
+    
+}
+
+form input {
+    width: 50%;
+    margin: 10px;
+}
+
+form label{
+    font-size: 20px;
+}
